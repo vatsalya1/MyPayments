@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="232px" viewBox="0 0 360 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>66E78E41-5EC7-4BD9-B5FD-C3FD814A2D20</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="116 0 232 88.6161146 232 232 6.24609918e-14 232 0 88.6161146"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait-Copy" transform="translate(0.000000, -38.000000)">
+            <g id="Group-2" transform="translate(0.000000, 38.000000)">
+                <use id="Polygon" fill="#43995D" transform="translate(116.000000, 116.000000) rotate(-270.000000) translate(-116.000000, -116.000000) " xlink:href="#path-1"></use>
+                <polygon id="Polygon-Copy" fill="#4A8FDF" transform="translate(270.264573, 116.000000) rotate(-90.000000) translate(-270.264573, -116.000000) " points="280.216111 26.2852314 386.264573 95.0866846 386.264573 205.714769 154.264573 205.714769 154.264573 95.0866846"></polygon>
+                <polygon id="Triangle-3" fill="#EF6A27" points="53 0 307 2.06349397e-14 180.576732 106.105089"></polygon>
+                <polygon id="Triangle" fill="#F3C04F" points="180.5 106 360 232 112 232"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

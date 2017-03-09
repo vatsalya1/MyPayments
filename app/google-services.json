@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "638738507261",
+    "firebase_url": "https://mypayments-10a5d.firebaseio.com",
+    "project_id": "mypayments-10a5d",
+    "storage_bucket": "mypayments-10a5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638738507261:android:d2db406bdf723c7a",
+        "android_client_info": {
+          "package_name": "com.example.vatsalya.mypayments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638738507261-3galvo9qartm5qiu5r0nerfjoiagka10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vatsalya.mypayments",
+            "certificate_hash": "E213A513E2EF4C7FF6B16290B6C14063644216E3"
+          }
+        },
+        {
+          "client_id": "638738507261-3rt5oo03jcj228j8o95a4evtl74ao0c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-PoujvZ5GBTvwNwzroCNWvgjsZkMxu8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

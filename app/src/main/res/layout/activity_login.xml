@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panoramic_houston_skyline"
+    android:animateLayoutChanges="true">
+
+    <android.support.v7.widget.AppCompatImageView
+        app:srcCompat="@drawable/ic_highradius_logo"
+        android:id="@+id/imageViewCompanyLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.04000002"
+        android:layout_height="84dp"
+        android:layout_width="84dp"
+        android:layout_marginTop="30dp"
+        android:alpha=".96"
+        android:elevation="5dp"
+        />
+
+    <TextView
+        android:text="@string/company_name"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:id="@+id/textViewCompanyName"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCompanyLogo"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:textColor="@color/warm_gray"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="3dp"
+        android:elevation="5dp"/>
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="257dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/loginInputLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCompanyName"
+        android:background="@drawable/rounded_login_input"
+        android:alpha=".45"
+        android:elevation="10dp"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="@string/username_text_input"
+            android:textSize="18sp"
+            android:ems="10"
+            android:id="@+id/editTextUsername"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="27dp"/>
+            <!-- android:onClick="onHitMeToShowBezier"-->
+
+
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editTextPassword"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUsername"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/password_text_input"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:text="@string/login_button"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:id="@+id/button"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/rounded_login_button"
+            android:alpha=".7"/>
+
+        <TextView
+            android:text="No Account Yet! Create One."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/link_signup"
+            android:textSize="18sp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

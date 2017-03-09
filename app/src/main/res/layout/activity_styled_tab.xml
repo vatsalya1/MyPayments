@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    />
+
+<com.stepstone.stepper.StepperLayout
+    android:id="@+id/stepperLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ms_stepperType="tabs"
+    app:ms_activeStepColor="?attr/colorAccent"
+    app:ms_inactiveStepColor="#cccccc"
+    app:ms_backButtonColor="#FFFFFF"
+    app:ms_nextButtonColor="#FFFFFF"
+    app:ms_completeButtonColor="#FFFFFF"
+    app:ms_tabStepDividerWidth="138dp"
+    app:ms_bottomNavigationBackground="?attr/colorPrimary" />
+
+</LinearLayout>

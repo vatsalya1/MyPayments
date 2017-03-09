@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="invoices"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Invoice One"
+        android:ems="10"
+        android:layout_marginStart="12dp"
+        android:id="@+id/invoice_number_one"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/invoice_amount_one"
+        android:layout_below="@+id/invoice_number_one"
+        android:layout_alignStart="@+id/invoice_number_one"
+        android:hint="Invoice amount"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Invoice Two"
+        android:ems="10"
+        android:layout_below="@+id/invoice_amount_one"
+        android:layout_alignStart="@+id/invoice_amount_one"
+        android:layout_marginTop="52dp"
+        android:id="@+id/invoice_number_two" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Invoice Amount"
+        android:layout_below="@+id/invoice_number_two"
+        android:layout_alignStart="@+id/invoice_number_two"
+        android:layout_marginTop="40dp"
+        android:id="@+id/invoice_amount_two" />
+</RelativeLayout>
